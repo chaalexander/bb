@@ -1,392 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Legend</title>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Betty Boulevard</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
-      id="prettyphoto-css"
-      href="css/prettyPhoto.css"
-      type="text/css"
-      media="all"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
-    <link href="css/fontello.css" type="text/css" rel="stylesheet" />
-    <!--[if lt IE 7]>
-      <link href="css/fontello-ie7.css" type="text/css" rel="stylesheet" />
-    <![endif]-->
+    <link rel="stylesheet" href="assets/style.css" />
     <link
-      href="http://fonts.googleapis.com/css?family=Quattrocento:400,700"
+      href="https://fonts.googleapis.com/css?family=Lato"
       rel="stylesheet"
       type="text/css"
     />
     <link
-      href="http://fonts.googleapis.com/css?family=Patua+One"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
       type="text/css"
     />
-    <link
-      href="http://fonts.googleapis.com/css?family=Open+Sans"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <style type="text/css">
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
-    </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet" />
-    <!--[if lt IE 9]>
-      <script src="js/html5.js"></script>
-    <![endif]-->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
-    <script src="js/jquery.localscroll-1.2.7-min.js"></script>
-    <script charset="utf-8">
-      $(document).ready(function () {
-        $("a[rel^='prettyPhoto']").prettyPhoto();
-      });
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <div class="navbar-wrapper">
-      <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container">
-            <a
-              class="btn btn-navbar"
-              data-toggle="collapse"
-              data-target=".nav-collapse"
-            >
-              <span class="icon-bar"></span> <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </a>
-            <h1 class="brand"><a href="#top">Betty Boulevard</a></h1>
-            <!-- <nav class="pull-right nav-collapse collapse">
-              <ul id="menu-main" class="nav">
-                <li><a title="portfolio" href="#portfolio">Portfolio</a></li>
-                <li><a title="services" href="#services">Services</a></li>
-                <li><a title="news" href="#news">News</a></li>
-                <li><a title="team" href="#team">Team</a></li>
-                <li><a title="contact" href="#contact">Contact</a></li>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#myPage"
+            ><img class="bblogo" src="assets/images/logo.png" alt="logo"
+          /></a> -->
+          <a class="navbar-brand" href="#myPage">Betty Boulevard</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#myPage">HOME</a></li>
+            <li><a href="#band">ABOUT</a></li>
+            <li><a href="#tour">LIVIN LUSH</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <!-- <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                >MORE <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Merchandise</a></li>
+                <li><a href="#">Extras</a></li>
+                <li><a href="#">Media</a></li>
               </ul>
-            </nav> -->
-          </div>
+            </li> -->
+            <!-- <li>
+              <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+            </li> -->
+          </ul>
         </div>
       </div>
-    </div>
-    <div id="top"></div>
-    <div id="headerwrap">
-      <header class="clearfix">
-        <h1><span>Betty Boulevard</span> We make web a beautiful place.</h1>
-        <div class="container">
-          <div class="row">
-            <div class="span12">
-              <h2>Signup for our Newsletter to be updated</h2>
-              <input
-                type="text"
-                name="your-email"
-                placeholder="you@yourmail.com"
-                class="cform-text"
-                size="40"
-                title="your email"
-              />
-              <input type="submit" value="Notify me" class="cform-submit" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="span12">
-              <ul class="icon">
-                <li>
-                  <a href="#"><i class="icon-pinterest-circled"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="icon-facebook-circled"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="icon-twitter-circled"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="icon-gplus-circled"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="icon-skype-circled"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header>
-    </div>
-    <!-- <div class="scrollblock">
-  <section id="feature">
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <article>
-            <p>We work to make web a beautiful place.</p>
-            <p>We craft beautiful designs and convert them into</p>
-            <p>fully functional and user-friendy web app.</p>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-<hr>
-<section id="portfolio" class="single-page scrollblock">
-  <div class="container">
-    <div class="align"><i class="icon-desktop-circled"></i></div>
-    <h1 id="folio-headline">Portfolio...</h1>
-    <div class="row">
-      <div class="span4">
-        <div class="mask2"> <a href="img/portfolio-01.jpg" rel="prettyPhoto"><img src="img/portfolio-01.jpg" alt=""></a> </div>
-        <div class="inside">
-          <hgroup>
-            <h2>Ethan Marcotte Design</h2>
-          </hgroup>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a class="more-link" href="#">view project</a> </div>
-        </div>
-      </div>
-      <div class="span4">
-        <div class="mask2"> <a href="img/portfolio-02.jpg" rel="prettyPhoto"><img src="img/portfolio-02.jpg" alt=""></a></div>
-        <div class="inside">
-          <hgroup>
-            <h2>A Book Apart</h2>
-          </hgroup>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a class="more-link" href="#">view project</a></div>
-        </div>
-      </div>
-      <div class="span4">
-        <div class="mask2"> <a href="img/portfolio-03.jpg" rel="prettyPhoto"><img src="img/portfolio-03.jpg" alt=""></a></div>
-        <div class="inside">
-          <hgroup>
-            <h2>Four Rules for Designers</h2>
-          </hgroup>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a class="more-link" href="#">view project</a></div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span4">
-        <div class="mask2"> <a href="img/portfolio-01.jpg" rel="prettyPhoto"><img src="img/portfolio-03.jpg" alt=""></a></div>
-        <div class="inside">
-          <hgroup>
-            <h2>Ethan Marcotte Design</h2>
-          </hgroup>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a class="more-link" href="#">view project</a></div>
-        </div>
-      </div>
-      <div class="span4">
-        <div class="mask2"> <a href="img/portfolio-02.jpg" rel="prettyPhoto"><img src="img/portfolio-01.jpg" alt=""></a></div>
-        <div class="inside">
-          <hgroup>
-            <h2>A Book Apart</h2>
-          </hgroup>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a class="more-link" href="#">view project</a></div>
-        </div>
-      </div>
-      <div class="span4">
-        <div class="mask2"> <a href="img/portfolio-03.jpg" rel="prettyPhoto"><img src="img/portfolio-02.jpg" alt=""></a></div>
-        <div class="inside">
-          <hgroup>
-            <h2>Four Rules for Designers</h2>
-          </hgroup>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a class="more-link" href="#">view project</a></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<hr>
-<section id="services" class="single-page scrollblock">
-  <div class="container">
-    <div class="align"><i class="icon-cog-circled"></i></div>
-    <h1>Services</h1>
-    <div class="row">
-      <div class="span3">
-        <div class="align"> <i class="icon-desktop sev_icon"></i></div>
-        <h2>Web design</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-      </div>
-      <div class="span3">
-        <div class="align"> <i class="icon-vector sev_icon"></i></div>
-        <h2>Print Design</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-      </div>
-      <div class="span3">
-        <div class="align"> <i class="icon-basket sev_icon"></i></div>
-        <h2>Ecommerce</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-      </div>
-      <div class="span3">
-        <div class="align"> <i class="icon-mobile-1 sev_icon"></i></div>
-        <h2>Marketing</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<hr>
-<section id="testimonials" class="single-page hidden-phone">
-  <div class="container">
-    <div class="row">
-      <div class="blockquote-wrapper">
-        <blockquote class="mega">
-          <div class="span4">
-            <p class="cite">John Doe &amp; Sons:</p>
-          </div>
-          <div class="span8">
-            <p class="alignright">"We highly appreciate the enthusiasm and creative talent of the people at Legend!"</p>
-          </div>
-        </blockquote>
-      </div>
-    </div>
-  </div>
-</section>
-<hr>
-<section id="news" class="single-page scrollblock">
-  <div class="container">
-    <div class="align"><i class="icon-pencil-circled"></i></div>
-    <h1>Our Blog</h1>
-    <div class="row">
-      <article class="span4 post"> <img class="img-news" src="img/blog_img-01.jpg" alt="">
-        <div class="inside">
-          <p class="post-date"><i class="icon-calendar"></i> March 17, 2013</p>
-          <h2>A girl running on a road</h2>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-            <a href="#" class="more-link">read more</a> </div>
-        </div>
-      </article>
-      <article class="span4 post"> <img class="img-news" src="img/blog_img-02.jpg" alt="">
-        <div class="inside">
-          <p class="post-date">February 28, 2013</p>
-          <h2>A bear sleeping on a tree</h2>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-            <a href="#" class="more-link">read more</a> </div>
-        </div>
-      </article>
-      <article class="span4 post"> <img class="img-news" src="img/blog_img-03.jpg" alt="">
-        <div class="inside">
-          <p class="post-date">February 06, 2013</p>
-          <h2>A Panda playing with his baby</h2>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-            <a href="#" class="more-link">read more</a> </div>
-        </div>
-      </article>
-    </div>
-    <a href="#" class="btn btn-large">Go to our blog</a> </div>
-</section>
-<hr>
-<section id="team" class="single-page scrollblock">
-  <div class="container">
-    <div class="align"><i class="icon-group-circled"></i></div>
-    <h1>Meet the team</h1>
-    <div class="row">
-      <div class="span2 offset1">
-        <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-1.jpg" alt=""> </div>
-        <h3>Andrew</h3>
-        <div class="job-position">web designer</div>
-      </div>
-      <div class="span2">
-        <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-2.jpg" alt=""> </div>
-        <h3>Stephen</h3>
-        <div class="job-position">web developer</div>
-      </div>
-      <div class="span2">
-        <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-3.jpg" alt=""> </div>
-        <h3>Maria</h3>
-        <div class="job-position">graphic designer</div>
-      </div>
-      <div class="span2">
-        <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-4.jpg" alt=""> </div>
-        <h3>John</h3>
-        <div class="job-position">project manager</div>
-      </div>
-      <div class="span2">
-        <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-2.jpg" alt=""> </div>
-        <h3>Ashton</h3>
-        <div class="job-position">real owner</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span10 offset1">
-        <hr class="featurette-divider">
-        <div class="featurette">
-          <h2 class="featurette-heading">Want to know more? <span class="muted">| a little about us</span></h2>
-          <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-          <p>At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
-          <p>A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es.</p>
-        </div>
-        <hr class="featurette-divider">
-      </div>
-    </div>
-  </div>
-</section>
-<section id="contact" class="single-page scrollblock">
-  <div class="container">
-    <div class="align"><i class="icon-mail-2"></i></div>
-    <h1>Contact us now!</h1>
-    <div class="row">
-      <div class="span12">
-        <div class="cform" id="theme-form">
-          <form action="#" method="post" class="cform-form">
-            <div class="row">
-              <div class="span6"> <span class="your-name">
-                <input type="text" name="your-name" placeholder="Your Name" class="cform-text" size="40" title="your name">
-                </span> </div>
-              <div class="span6"> <span class="your-email">
-                <input type="text" name="your-email" placeholder="Your Email" class="cform-text" size="40" title="your email">
-                </span> </div>
-            </div>
-            <div class="row">
-              <div class="span6"> <span class="company">
-                <input type="text" name="company" placeholder="Your Company" class="cform-text" size="40" title="company">
-                </span> </div>
-              <div class="span6"> <span class="website">
-                <input type="text" name="website" placeholder="Your Website" class="cform-text" size="40" title="website">
-                </span> </div>
-            </div>
-            <div class="row">
-              <div class="span12"> <span class="message">
-                <textarea name="message" class="cform-textarea" cols="40" rows="10" title="drop us a line."></textarea>
-                </span> </div>
-            </div>
-            <div>
-              <input type="submit" value="Send message" class="cform-submit pull-left">
-            </div>
-            <div class="cform-response-output"></div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
+    </nav>
 
-    <!-- <div class="footer-wrapper">
-  <div class="container">
-    <footer> <small>&copy; 2013 Inbetwin Network. All rights reserved. | Template By: <a href="http://www.dzyngiri.com">Dzyngiri</a></small> </footer>
-  </div>
-</div> -->
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/site.js"></script>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img
+            src="assets/images/bb.png"
+            alt="Logo"
+            width="1200"
+            height="700"
+          />
+          <!-- <div class="carousel-caption">
+            <h3>New York</h3>
+            <p>The atmosphere in New York is lorem ipsum.</p>
+          </div> -->
+        </div>
+
+        <div class="item">
+          <img
+            src="assets/images/Screen Shot 2021-05-01 at 2.23.01 PM.png"
+            alt="Chicago"
+            width="1200"
+            height="700"
+          />
+          <!-- <div class="carousel-caption">
+            <h3>Chicago</h3>
+            <p>Thank you, Chicago - A night we won't forget.</p>
+          </div> -->
+        </div>
+
+        <div class="item">
+          <img
+            src="assets/images/Screen Shot 2021-05-01 at 2.22.49 PM.png"
+            alt="Los Angeles"
+            width="1200"
+            height="700"
+          />
+          <!-- <div class="carousel-caption">
+            <h3>LA</h3>
+            <p>
+              Even though the traffic was a mess, we had the best time playing
+              at Venice Beach!
+            </p>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a
+        class="left carousel-control"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-left"
+          aria-hidden="true"
+        ></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="right carousel-control"
+        href="#myCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-right"
+          aria-hidden="true"
+        ></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Container (The Band Section) -->
+    <div id="band" class="container text-center">
+      <h3>Livin Lush</h3>
+      <p><em>Lorem ipsum dolor.</em></p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat
+        consectetur leo. Proin aliquam, orci id commodo sollicitudin, orci diam
+        dapibus nunc, nec bibendum velit arcu nec nisl. Phasellus efficitur erat
+        quis ullamcorper convallis. Vivamus lacus libero, interdum vel sagittis
+        vel, placerat eget tellus. Donec varius ligula neque, ut malesuada est
+        porttitor at. Donec pretium nulla id euismod fringilla. Vivamus mattis
+        nunc eu eros cursus pharetra. Pellentesque habitant morbi tristique
+        senectus et netus et malesuada fames ac turpis egestas. Phasellus
+        faucibus dui nulla, vel ornare arcu facilisis quis. Ut feugiat pretium
+        nisi, a imperdiet felis fermentum sit amet. Nullam accumsan tempus elit,
+        in rhoncus elit maximus sit amet. Orci varius natoque penatibus et
+        magnis dis parturient montes, nascetur ridiculus mus. Quisque aliquam
+        fermentum sodales. Integer sit amet nulla purus. Sed lorem orci,
+        consectetur eu egestas nec, varius ac sapien. Vivamus in ullamcorper
+        orci.
+      </p>
+      <br />
+      <div class="row">
+        <div class="col-sm-4">
+          <p class="text-center">
+            <strong>Cocktail</strong>
+          </p>
+          <br />
+          <a href="#demo" data-toggle="collapse">
+            <img
+              src="assets/images/straw.png"
+              class="img-circle person"
+              alt="Random Name"
+              width="255"
+              height="255"
+            />
+          </a>
+          <div id="demo" class="collapse">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium quisquam reiciendis, ducimus ab, iure sint rerum
+              facilis, corporis ex provident possimus quod illo quis! Unde dicta
+              delectus quod pariatur earum?
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-center"><strong>Wine</strong></p>
+          <br />
+          <a href="#demo2" data-toggle="collapse">
+            <img
+              src="assets/images/straw.png"
+              class="img-circle person"
+              alt="Random Name"
+              width="255"
+              height="255"
+            />
+          </a>
+          <div id="demo2" class="collapse">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium quisquam reiciendis, ducimus ab, iure sint rerum
+              facilis, corporis ex provident possimus quod illo quis! Unde dicta
+              delectus quod pariatur earum?
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-center"><strong>Paper Straw</strong></p>
+          <br />
+          <a href="#demo3" data-toggle="collapse">
+            <img
+              src="assets/images/straw.png"
+              class="img-circle person"
+              alt="Random Name"
+              width="255"
+              height="255"
+            />
+          </a>
+          <div id="demo3" class="collapse">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium quisquam reiciendis, ducimus ab, iure sint rerum
+              facilis, corporis ex provident possimus quod illo quis! Unde dicta
+              delectus quod pariatur earum?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container (TOUR Section) -->
+    <div id="tour" class="bg-1">
+      <div class="container">
+        <h3 class="text-center">Livin Lush</h3>
+        <p class="text-center">
+          Lorem ipsum dolor sit.<br />
+          Lorem ipsum dolor sit.
+        </p>
+        <!-- <ul class="list-group">
+          <li class="list-group-item"
+            September <span class="label label-danger">Sold Out!</span>
+          </li>
+          <li class="list-group-item">
+            October <span class="label label-danger">Sold Out!</span>
+          </li>
+          <li class="list-group-item">November <span class="badge">3</span></li>
+        </ul> -->
+
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img
+                src="assets/images/straw.png"
+                alt="Paris"
+                width="400"
+                height="300"
+              />
+              <p><strong>Cocktail</strong></p>
+              <p>Lorem ipsum dolor sit.</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal">
+                Buy here
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img
+                src="assets/images/straw.png"
+                alt="New York"
+                width="400"
+                height="300"
+              />
+              <p><strong>Wine</strong></p>
+              <p>Lorem ipsum dolor sit.</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal">
+                Buy here
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img
+                src="assets/images/straw.png"
+                alt="San Francisco"
+                width="400"
+                height="300"
+              />
+              <p><strong>Paper Straw</strong></p>
+              <p>Lorem ipsum dolor sit.</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal">
+                Buy Here.
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                ×
+              </button>
+              <h4><span class="glyphicon glyphicon-lock"></span> Cart</h4>
+            </div>
+            <div class="modal-body">
+              <form role="form">
+                <div class="form-group">
+                  <label for="psw"
+                    ><span class="glyphicon glyphicon-shopping-cart"></span>
+                    Price</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="psw"
+                    placeholder="How many?"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="usrname"
+                    ><span class="glyphicon glyphicon-user"></span> Send
+                    To</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="usrname"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <button type="submit" class="btn btn-block">
+                  Pay
+                  <span class="glyphicon glyphicon-ok"></span>
+                </button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="submit"
+                class="btn btn-danger btn-default pull-left"
+                data-dismiss="modal"
+              >
+                <span class="glyphicon glyphicon-remove"></span> Cancel
+              </button>
+              <p>Need <a href="#">help?</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container">
+      <h3 class="text-center">Contact</h3>
+      <p class="text-center"><em>We love our fans!</em></p>
+
+      <div class="row">
+        <div class="col-md-4">
+          <p>
+            <span class="glyphicon glyphicon-map-marker"></span>Beverly Hills,
+            US
+          </p>
+          <p>
+            <span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515
+          </p>
+          <p>
+            <span class="glyphicon glyphicon-envelope"></span>Email:
+            mail@mail.com
+          </p>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+            </div>
+            <div class="col-sm-6 form-group">
+              <input
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+          <textarea
+            class="form-control"
+            id="comments"
+            name="comments"
+            placeholder="Comment"
+            rows="5"
+          ></textarea>
+          <br />
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <button class="btn pull-right" type="submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <h3 class="text-center">From The Blog</h3>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
+        <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
+        <li><a data-toggle="tab" href="#menu2">Peter</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <h2>Mike Ross, Director</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed labore
+            consequuntur, vitae unde aut quos facere sint error laborum minus,
+            enim perferendis quasi dicta! Quae debitis deserunt natus labore ab.
+          </p>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <h2>Chandler Bing, Designer</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed labore
+            consequuntur, vitae unde aut quos facere sint error laborum minus,
+            enim perferendis quasi dicta! Quae debitis deserunt natus labore ab.
+          </p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h2>Peter Griffin, Owner</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed labore
+            consequuntur, vitae unde aut quos facere sint error laborum minus,
+            enim perferendis quasi dicta! Quae debitis deserunt natus labore ab.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image of location/map -->
+    <!-- <img src="map.jpg" class="img-responsive" style="width: 100%" /> -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>
+        created by <a href="https://chaalexander.github.io/#/">Cha Alexander</a>
+      </p>
+    </footer>
+
+    <script src="assets/script.js"></script>
   </body>
 </html>
