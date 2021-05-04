@@ -107,3 +107,11 @@ footer a:hover {
 textarea {
   resize: none;
 }
+.list-unstyled {
+  text-align: center;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
